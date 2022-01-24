@@ -3,9 +3,9 @@
 $no = $_POST['number'];
 
 $strnNo =  strlen($no);
-// echo $strnNo;
+ //echo $strnNo;
 
-Header("Location:calculate.php?number= $strnNo");
+header("Location:calculate.php?number=".$strnNo);
 
 
 ?>
